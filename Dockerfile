@@ -10,4 +10,4 @@ RUN pip install -r requirements.txt
 COPY . /app
 WORKDIR /app
 
-CMD ["python", "bot.py"]
+CMD ["python", "main.py"]
